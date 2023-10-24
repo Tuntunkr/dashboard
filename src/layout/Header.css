@@ -1,0 +1,72 @@
+.frame {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  height: 48px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 216px;
+}
+
+.frame .img {
+  height: 32px;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  position: relative;
+  width: 32px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-bottom: -1px;
+  margin-top: -3px;
+  position: relative;
+  width: 50px;
+}
+
+.header-right {
+  display: flex;
+  width: 217px;
+  height: 48px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Shiba-Light-Orange, #f28b03);
+}
+.MM-account {
+  display: flex;
+  gap: 10px;
+}
+
+.text-wrapper {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.triangle_down1 {
+  position: relative;
+  top: -5px;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-right: 0.2em solid #fff;
+  border-top: 0.2em solid #fff;
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 1em;
+}
+
+/* frames */
